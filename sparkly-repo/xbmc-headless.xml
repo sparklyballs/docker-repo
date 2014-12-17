@@ -4,8 +4,9 @@
 <Description>
 A Headless docker of XBMC (gotham-13.2)[br][br]
 [b][span style='color: #E80000;']Directions:[/span][/b][br]
-[b]/config[/b] : this path is used to store the configuration and the database files of Maraschino.[br]
-</Description>
+[b]/root/.xbmc[/b] : this path is used to store the config files for XBMC-Headless.[br]
+The following variables need to be set to work with a MYSQL install[br]
+MYSQLip :- IP address of your mysql installation [b]YOU MUST USE IP ADDRESS AND NOT HOST NAME</Description>
 <Registry>https://registry.hub.docker.com/u/smdion/docker-maraschino/</Registry>
 <Repository>smdion/docker-maraschino</Repository>
 <BindTime>true</BindTime>
