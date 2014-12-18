@@ -6,7 +6,7 @@ A Headless installation of XBMC (gotham-13.2)to enable SB, CP etc to send update
 [b][span style='color: #E80000;']Directions:[/span][/b][br]
 [b]/root/.xbmc[/b] : this path is used to store the config files for XBMC-Headless.[br]
 The following variables need to be set to work with a MYSQL install[br]
-MYSQLip :- IP address of your mysql installation [b]YOU MUST USE IP ADDRESS AND NOT HOST NAME[br]
+MYSQLip :- IP address of your mysql installation [b]YOU MUST USE IP ADDRESS AND NOT HOST NAME[/b][br]
   MYSQLport :- the port number for mysql on your mysql host (usually 3306)[br]
   MYSQLuser :- The xbmc user for mysql host [b]NOT USUALLY ROOT[/b] follow info here for setup details http://kodi.wiki/view/HOW-TO:Sync_multiple_libraries/Setting_up_MySQL[br]
   MYSQLpass :- The xmbc password for mysql host[br]
