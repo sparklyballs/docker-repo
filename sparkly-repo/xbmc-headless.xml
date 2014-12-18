@@ -10,10 +10,10 @@ MYSQLip :- IP address of your mysql installation [b]YOU MUST USE IP ADDRESS AND 
   MYSQLport :- the port number for mysql on your mysql host (usually 3306)[br]
   MYSQLuser :- The xbmc user for mysql host [b]NOT USUALLY ROOT[/b] follow info here for setup details http://kodi.wiki/view/HOW-TO:Sync_multiple_libraries/Setting_up_MySQL[br]
   MYSQLpass :- The xmbc password for mysql host[br]
-  [b]OTHER XBMC INSTALLS ON YOUR LOCAL NETWORK MUST HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY
+  [b]OTHER XBMC INSTALLS ON YOUR LOCAL NETWORK MUST HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
 </Description>
 <Registry>https://registry.hub.docker.com/u/smdion/docker-maraschino/</Registry>
-<Repository>smdion/docker-maraschino</Repository>
+<Repository>sparklyballs/xbmc-server</Repository>
 <BindTime>true</BindTime>
 <Privileged>true</Privileged>
 <Networking>
@@ -25,7 +25,7 @@ MYSQLip :- IP address of your mysql installation [b]YOU MUST USE IP ADDRESS AND 
 <Protocol>tcp</Protocol>
 </Port>
 <Port>
-  <HostPort>9777</HostPort>
+<HostPort>9777</HostPort>
 <ContainerPort>9777</ContainerPort>
 <Protocol>udp</Protocol>
 </Port>
@@ -33,7 +33,19 @@ MYSQLip :- IP address of your mysql installation [b]YOU MUST USE IP ADDRESS AND 
 </Networking>
 <Environment>
 <Variable>
-<Name></Name>
+<Name>MYSQLip</Name>
+<Value></Value>
+</Variable>
+<Variable>
+<Name>MYSQLport</Name>
+<Value></Value>
+</Variable>
+<Variable>
+<Name>MYSQLuser</Name>
+<Value></Value>
+</Variable>
+<Variable>
+<Name>MYSQLpass</Name>
 <Value></Value>
 </Variable>
 </Environment>
@@ -45,6 +57,6 @@ MYSQLip :- IP address of your mysql installation [b]YOU MUST USE IP ADDRESS AND 
 </Volume>
 </Data>
 <WebUI></WebUI>
-<Banner></Banner>
-<Icon>http://i.imgur.com/YZq4E3v.png</Icon>
+<Banner>www.abload.de/img/xbmc_luxxro55.png</Banner>
+<Icon>http://www.outsidaz.org/blog/wp-content/uploads/2011/09/xbmc.png</Icon>
 </Container>
