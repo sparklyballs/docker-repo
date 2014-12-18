@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<Name>XBMC-Headless (gotham)</Name>
+<Name>XBMC-Headless</Name>
 <Description>
 A Headless installation of XBMC (gotham-13.2)to enable SB, CP etc to send updates to[br][br]
 [b][span style='color: #E80000;']Directions:[/span][/b][br]
