@@ -52,7 +52,7 @@ MYSQLip :- IP address of your mysql installation [b]YOU MUST USE IP ADDRESS AND 
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/config</ContainerDir>
+<ContainerDir>/root/.xbmc</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>
