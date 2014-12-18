@@ -24,11 +24,6 @@ MYSQLip :- IP address of your mysql installation [b]YOU MUST USE IP ADDRESS AND 
 <ContainerPort>8089</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
-<Port>
-<HostPort>9777</HostPort>
-<ContainerPort>9777</ContainerPort>
-<Protocol>udp</Protocol>
-</Port>
 </Publish>
 </Networking>
 <Environment>
