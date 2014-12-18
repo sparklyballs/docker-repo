@@ -14,7 +14,7 @@ MYSQLpass :- The xmbc password for mysql host[br]
 [b]OTHER XBMC INSTALLS ON YOUR LOCAL NETWORK MUST HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
 </Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/xbmc-headless/</Registry>
-<Repository>sparklyballs/xbmc-server</Repository>
+<Repository>sparklyballs/xbmc-headless</Repository>
 <BindTime>true</BindTime>
 <Privileged>true</Privileged>
 <Networking>
