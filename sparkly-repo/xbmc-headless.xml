@@ -12,7 +12,7 @@ MYSQLip :- IP address of your mysql installation [b]YOU MUST USE IP ADDRESS AND 
   MYSQLpass :- The xmbc password for mysql host[br]
   [b]OTHER XBMC INSTALLS ON YOUR LOCAL NETWORK MUST HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
 </Description>
-<Registry>https://registry.hub.docker.com/u/smdion/docker-maraschino/</Registry>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/xbmc-server/</Registry>
 <Repository>sparklyballs/xbmc-server</Repository>
 <BindTime>true</BindTime>
 <Privileged>true</Privileged>
