@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>MovieGrabber</Name>
+<Description>[b][u][span style='color: #E80000;']Description[/span][/u][/b][br]
+MovieGrabber is a fully automated way of downloading movie from usenet, it supports any nzb client that has a "watched" or "monitor" folder facility such as Sabnzbd+, Grabit and Newsbin. MovieGrabber works by checking imdb for matching criteria and if a match is found the nzb will be downloaded and stored in either a specified queued folder for user review or sent to the watched folder for processing and automatic downloading via your usenet binary client.[br][br]
+[b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+[b]/config[/b] This is where moviegrabber will store it's configuration file, database and logs.[br]
+[b]/watchfolder[/b] Watch-folder location for your client of choice[br]
+[b]/movies[/b] Where your movies are.[br]Edge added for updates, 1 to update on startup, 0 or empty for no updates</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/moviegrabber/</Registry>
+<Repository>sparklyballs/moviegrabber</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>9191</HostPort>
+<ContainerPort>9191</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name>EDGE</Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/config</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/watchfolder</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/movies</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:9191]</WebUI>
+<Banner>http://i.imgur.com/q28ZvQU.png</Banner>
+<Icon>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/images/moviegrabber-icon.png</Icon>
+</Container>
