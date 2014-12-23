@@ -21,8 +21,8 @@ MYSQLpass :- The xmbc password for mysql host[br]
 <Mode>bridge</Mode>
 <Publish>
 <Port>
-<HostPort>8089</HostPort>
-<ContainerPort>8089</ContainerPort>
+<HostPort>8080</HostPort>
+<ContainerPort>8080</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
 </Publish>
@@ -52,7 +52,7 @@ MYSQLpass :- The xmbc password for mysql host[br]
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://[IP]:[PORT:8089]</WebUI>
+<WebUI></WebUI>
 <Banner>www.abload.de/img/xbmc_luxxro55.png</Banner>
 <Icon>http://www.outsidaz.org/blog/wp-content/uploads/2011/09/xbmc.png</Icon>
 </Container>
