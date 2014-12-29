@@ -49,7 +49,7 @@ MYSQLpass :- The xmbc password for mysql host[br]
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/root/.kodi</ContainerDir>
+<ContainerDir>/opt/kodi-server/share/kodi/portable_data</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>
