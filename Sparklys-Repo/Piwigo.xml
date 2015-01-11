@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Piwigo</Name>
+<Description>Piwigo, For testing purposes only, [br]NOT RECOMMENDED FOR INTERNET USAGE.[br]
+Set local unraid storage location to save var/www/gallery for persistence.</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/piwigo/</Registry>
+<Repository>sparklyballs/piwigo</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>8088</HostPort>
+<ContainerPort>80</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name></Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/var/www/gallery</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir></ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:8088]/</WebUI>
+<Banner>http://upload.wikimedia.org/wikipedia/fr/0/07/Piwigo_logo.png</Banner>
+<Icon>http://48jwh53mcwj217jvx11dcwjj.wpengine.netdna-cdn.com/wp-content/uploads/2011/02/logo-shadow.png</Icon>
+</Container>
