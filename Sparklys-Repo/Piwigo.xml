@@ -2,9 +2,7 @@
 <Container>
 <Name>Piwigo</Name>
 <Description>Piwigo, For testing purposes only, [br]NOT RECOMMENDED FOR INTERNET USAGE.[br]
-Set local unraid storage location to save var/www/gallery for persistence.
-  
-YOU MUST CREATE A DATABASE AND A USER WITH FULL PRIVILEGES TO THAT DATABASE IN MYSQL/MARIADB[br] OR THIS WILL NOT WORK.  
+Set local unraid storage location to save var/www/gallery for persistence.[br][br]YOU MUST CREATE A DATABASE AND A USER WITH FULL PRIVILEGES TO THAT DATABASE IN MYSQL/MARIADB[br] OR THIS WILL NOT WORK.  
 </Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/piwigo/</Registry>
 <Repository>sparklyballs/piwigo</Repository>
