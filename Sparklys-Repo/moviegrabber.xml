@@ -6,7 +6,7 @@ MovieGrabber is a fully automated way of downloading movie from usenet, it suppo
 [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
 [b]/config[/b] This is where moviegrabber will store it's configuration file, database and logs.[br]
 [b]/watchfolder[/b] Watch-folder location for your client of choice[br]
-[b]/movies[/b] Where your movies are.[br]Edge added for updates, 1 to update on startup, 0 or empty for no updates</Description>
+[b]/movies[/b] Where your movies are.[br]</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/moviegrabber/</Registry>
 <Repository>sparklyballs/moviegrabber</Repository>
 <BindTime>true</BindTime>
@@ -23,7 +23,7 @@ MovieGrabber is a fully automated way of downloading movie from usenet, it suppo
 </Networking>
 <Environment>
 <Variable>
-<Name>EDGE</Name>
+<Name></Name>
 <Value></Value>
 </Variable>
 </Environment>
