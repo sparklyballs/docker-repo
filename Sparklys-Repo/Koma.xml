@@ -4,7 +4,7 @@
 <Description>
 Integrated kodi and mariadb container[br]
 To use [br]fill in the folder mappings below [br]start the container[br] let it run for a couple of minutes[br] 
-and then stop it[br] go to unraid terminal and issue this command
+and then stop it[br] go to unraid terminal and issue this command[br]
 docker exec createuser kodi kodi [br] start container</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/koma/</Registry>
 <Repository>sparklyballs/koma</Repository>
