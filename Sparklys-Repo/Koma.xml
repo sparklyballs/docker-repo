@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Koma</Name>
+<Description>
+Integrated kodi and mariadb container[br]
+To use [br]fill in the folder mappings below [br]start the container[br] let it run for a couple of minutes[br] 
+and then stop it[br] go to unraid terminal and issue this command
+docker exec createuser kodi kodi [br] start container</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/koma/</Registry>
+<Repository>sparklyballs/koma</Repository>
+<BindTime>true</BindTime>
+<Privileged>true</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>8080</HostPort>
+<ContainerPort>8080</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name></Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/opt/kodi-server/share/kodi/portable_data</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/config</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT]</WebUI>
+<Banner>http://i.imgur.com/MAY6pir.png</Banner>
+<Icon>http://i.imgur.com/rqpofWj.png</Icon>
+</Container>
