@@ -53,7 +53,7 @@ MYSQLpass :- The xmbc password for mysql host[br]
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI></WebUI>
+<WebUI>http://[IP]:[PORT:8080]/</WebUI>
 <Banner>http://i.imgur.com/9p9D1vn.png</Banner>
 <Icon>http://i.imgur.com/rqpofWj.png</Icon>
 </Container>
