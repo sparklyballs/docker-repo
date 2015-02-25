@@ -3,7 +3,7 @@
 <Name>Piwigo</Name>
 <Description>Piwigo, For testing purposes only, [br]NOT RECOMMENDED FOR INTERNET USAGE.[br]
 Set local unraid storage location to save var/www/gallery for persistence.[br][br]YOU MUST CREATE A DATABASE AND A USER WITH FULL PRIVILEGES TO THAT DATABASE IN MYSQL/MARIADB[br] OR THIS WILL NOT WORK.  
-</Description>
+[br]YOU MUST ALSO CHANGE THE HOST PORT BELOW OR IT WILL CLASH WITH THE UNRAID WEBUI PORT</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/piwigo/</Registry>
 <Repository>sparklyballs/piwigo</Repository>
 <BindTime>true</BindTime>
@@ -12,7 +12,7 @@ Set local unraid storage location to save var/www/gallery for persistence.[br][b
 <Mode>bridge</Mode>
 <Publish>
 <Port>
-<HostPort>8088</HostPort>
+<HostPort>80</HostPort>
 <ContainerPort>80</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
@@ -36,7 +36,7 @@ Set local unraid storage location to save var/www/gallery for persistence.[br][b
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://[IP]:[PORT:8088]/</WebUI>
+<WebUI>http://[IP]:[PORT:80]/</WebUI>
 <Banner>http://upload.wikimedia.org/wikipedia/fr/0/07/Piwigo_logo.png</Banner>
 <Icon>http://48jwh53mcwj217jvx11dcwjj.wpengine.netdna-cdn.com/wp-content/uploads/2011/02/logo-shadow.png</Icon>
 </Container>
