@@ -43,7 +43,7 @@ docker exec Koma createuser kodi kodi [br] start container</Description>
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://[IP]:[PORT]</WebUI>
+<WebUI>http://[IP]:[PORT:8080]/</WebUI>
 <Banner>http://i.imgur.com/MAY6pir.png</Banner>
 <Icon>http://i.imgur.com/rqpofWj.png</Icon>
 </Container>
