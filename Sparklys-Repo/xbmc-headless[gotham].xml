@@ -52,7 +52,7 @@ MYSQLpass :- The xmbc password for mysql host[br]
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI></WebUI>
+<WebUI>http://[IP]:[PORT:8080]/</WebUI>
 <Banner>www.abload.de/img/xbmc_luxxro55.png</Banner>
 <Icon>http://www.outsidaz.org/blog/wp-content/uploads/2011/09/xbmc.png</Icon>
 </Container>
