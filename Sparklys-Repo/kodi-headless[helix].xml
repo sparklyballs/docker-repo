@@ -2,7 +2,7 @@
 <Container>
 <Name>KODI-Headless</Name>
 <Description>
-A Headless installation of KODI (helix release-candidate ?)to enable SB, CP etc to send updates to[br][br]
+A Headless installation of KODI (helix version 14.2) to enable SB, CP etc updates.[br][br]
 [br]
 Follow info here for MYSQL setup details:-[br] http://kodi.wiki/view/HOW-TO:Sync_multiple_libraries/Setting_up_MySQL[br]
 [b][span style='color: #E80000;']Directions:[/span][/b][br]
@@ -12,7 +12,7 @@ MYSQLip :- IP address of your mysql installation [br][b]YOU MUST USE IP ADDRESS 
 MYSQLport :- the port number for mysql on your mysql host (usually 3306)[br]
 MYSQLuser :- The xbmc user for mysql host [b]NOT USUALLY ROOT[/b] [br]
 MYSQLpass :- The xmbc password for mysql host[br]
-[b]OTHER KODI INSTALLS ON YOUR LOCAL NETWORK MUST BE THE SAME VERSION (14)[br] AND HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
+[b]OTHER KODI INSTALLS ON YOUR LOCAL NETWORK MUST BE HELIX (14)[br] AND HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
 </Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/headless-kodi-helix/</Registry>
 <Repository>sparklyballs/headless-kodi-helix</Repository>
