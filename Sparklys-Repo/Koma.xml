@@ -2,7 +2,7 @@
 <Container>
 <Name>Koma</Name>
 <Description>
-Integrated kodi and mariadb container[br]
+Integrated kodi-headless and mariadb container[br]
 To use [br]fill in the folder mappings and port settings below [br] 3306 is mariadb port[br]start the container[br] let it run for a couple of minutes[br] 
 and then stop it[br] go to unraid terminal and issue this command[br]
 docker exec Koma createuser kodi kodi [br] start container</Description>
