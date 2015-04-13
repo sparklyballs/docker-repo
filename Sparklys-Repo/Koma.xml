@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Koma</Name>
+<support>http://lime-technology.com/forum/index.php?topic=37209</support>
 <Description>Integrated kodi-headless and mariadb container[br]
 To use [br]fill in the folder mappings and port settings below [br] 3306 is mariadb port[br]start the container[br] let it run for a couple of minutes[br] 
 and then stop it[br] go to unraid terminal and issue this command[br]
