@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>KODI-Headless</Name>
+<support>http://lime-technology.com/forum/index.php?topic=37209</support>
 <Description>
 A Headless installation of KODI (helix version 14.2) to enable SB, CP etc updates.[br][br]
 [br]
