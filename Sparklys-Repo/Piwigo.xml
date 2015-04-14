@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Piwigo</Name>
-<support>http://lime-technology.com/forum/index.php?topic=37209</support>
+<Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
 <Description>Piwigo is photo gallery software for the web, built by an active community of users and developers.[br]Extensions make Piwigo easily customizable. Icing on the cake, Piwigo is free and opensource.[br][br]
 Set local unraid storage location to save var/www/gallery for persistence.[br][br]YOU MUST CREATE A DATABASE AND A USER WITH FULL PRIVILEGES TO THAT DATABASE IN MYSQL/MARIADB[br] OR THIS WILL NOT WORK.  
 [br]YOU MUST ALSO CHANGE THE HOST PORT BELOW OR IT WILL CLASH WITH THE UNRAID WEBUI PORT</Description>
