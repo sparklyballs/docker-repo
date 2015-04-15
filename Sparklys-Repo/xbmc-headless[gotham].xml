@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>XBMC-Headless</Name>
+<Overview>A Headless installation of XBMC (gotham-13.2)to enable SB, CP etc to send updates to</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
-<Description>
-A Headless installation of XBMC (gotham-13.2)to enable SB, CP etc to send updates to[br][br]
+<Description>A Headless installation of XBMC (gotham-13.2)to enable SB, CP etc to send updates to[br][br]
 Follow info here for MYSQL setup details:-[br] http://kodi.wiki/view/HOW-TO:Sync_multiple_libraries/Setting_up_MySQL[br]
 [b][span style='color: #E80000;']Directions:[/span][/b][br]
 [b]/root/.xbmc[/b] : this path is used to store the config files for XBMC-Headless.[br]
