@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Readerself</Name>
+<Overview>Reader Self. Self-hosted rss reader. (Requires mysql/mariadb)</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
 <Description>Reader Self. Self-hosted rss reader. (Requires mysql/mariadb)[br]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/readerself/</Registry>
