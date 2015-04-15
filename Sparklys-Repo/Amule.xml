@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Amule</Name>
+<Overview>Amule is an eMule-like client for the eD2k and Kademlia networks.</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
 <Description>Amule is an eMule-like client for the eD2k and Kademlia networks. [br]Volume mappings are /config for the amule run files and /downloads for completed files </Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/amule/</Registry>
