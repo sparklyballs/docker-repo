@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Pacs</Name>
+<Overview>PACS server implementation</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
 <Description>PACS server instance</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/pacs/</Registry>
