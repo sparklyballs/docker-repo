@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>BeardRage</Name>
+<Overview>Two in One container with both SickBeard and SickRage[br]Note only one can be run at any given time</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
 <Description>Two in One container with both SickBeard and SickRage[br]Note only one can be run at any given time[br]To select Sickrage click advanced view and change the SICKRAGE variable to 1 Will default to SickBeard otherwise[br]EDGE = 1 will update the container with the latest git pull on startup with your choice of either sickbeard or sickrage[br][br][br]Folder setup is /tv for your local tv shows folder, /downloads for where SAB etc puts completed downloads and /config for saving config files.[br][br]Whilst you can only run only one of these programs at once, you can switch between by stopping the container and changing the SICKRAGE variable to 0 for sickbeard and 1 for sickrage</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/beardrage/</Registry>
