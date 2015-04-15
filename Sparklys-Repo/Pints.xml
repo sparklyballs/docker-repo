@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Pints</Name>
+<Overview>Beer tap display server based on raspberry pints, minus hardware support though...</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
 <Description>Raspberry Pints, beer tap display app[br]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/pints/</Registry>
