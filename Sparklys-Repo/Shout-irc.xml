@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Shout-Irc</Name>
+<Overview>Browser based IRC client using node</Overview>
+<Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
+<Description>Browser based IRC client using node, config options in the locally stored config.js[br][br]For more information visit http://shout-irc.com/docs/getting_started/usage.html</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/shout-irc/</Registry>
+<Repository>sparklyballs/shout-irc</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>9000</HostPort>
+<ContainerPort>9000</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name></Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/config</ContainerDir>
+<Mode></Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir></ContainerDir>
+<Mode></Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:9000]/</WebUI>
+<Banner>http://i.imgur.com/29Q6GZl.png</Banner>
+<Icon>http://i.imgur.com/hEVCx8x.png</Icon>
+</Container>
