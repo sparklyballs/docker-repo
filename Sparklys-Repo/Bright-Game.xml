@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Bright-game</Name>
+<Overview>Bright Game Panel is a free and open source game server control panel. "BGPanel" utilizes many standard technologies available on many shared hosting platforms which gives all communities the ability to remotely control their game servers.</Overview>
+<Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
+<Description>Bright Game Panel is a free and open source game server control panel. "BGPanel" utilizes many standard technologies available on many shared hosting platforms which gives all communities the ability to remotely control their game servers.[b][br]IMPORTANT:- YOU MUST CHANGE THE HOST PORT BELOW TO AVOID CLASHING WITH STANDARD UNRAID WEBUI PORT[/b]</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/bright-game/</Registry>
+<Repository>sparklyballs/bright-game</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>80</HostPort>
+<ContainerPort>80</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name></Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/var/www/bgpanel</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir></ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:80]/</WebUI>
+<Banner>http://nerdreactor.com/wp-content/uploads/2014/07/League-of-Legends-Banner.png</Banner>
+<Icon>http://png-2.findicons.com/files/icons/75/i_like_buttons_3a/512/perspective_button_games.png</Icon>
+</Container>
