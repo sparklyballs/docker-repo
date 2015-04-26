@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>Libre-Mate</Name>
+  <Overview>Mate desktop in a box with libreoffice (use remote desktop client to connect)</Overview>
+  <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
+  <Description>Mate desktop in a box with libreoffice, hits CPU fairly hard.[br]Output folder is /home/ubuntu/unraid. user/password is ubuntu:PASSWD (case sensitive).[br] Once you have logged in and as long as you don't logout again you can resume a session by selecting it from the login dropdown. There are some wallpapers in /home/ubuntu/unraid/wallpapers.[br][b]IMPORTANT:- You have to connect with a remote desktop connection to port 3389. Also if you have kvm vm's running you may have to alter the host port for the 5900 port below to avoid a clash[/b]</Description>
+  <Registry>https://registry.hub.docker.com/u/sparklyballs/mate-libreoffice/</Registry>
+  <Repository>sparklyballs/mate-libreoffice</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name></Name>
+      <Value></Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+        <Port>
+        <HostPort>3389</HostPort>
+        <ContainerPort>3389</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>6080</HostPort>
+        <ContainerPort>6080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>     
+      <Port>
+        <HostPort>5900</HostPort>
+        <ContainerPort>5900</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+   <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/home/ubuntu/.config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+      <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/home/ubuntu/unraid</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI></WebUI>
+  <Banner>http://i.imgur.com/sYmbxI3.png</Banner>
+  <Icon>http://findicons.com/files/icons/2561/1st_mx_is_4c/256/libre_office.png</Icon>
+</Container>
