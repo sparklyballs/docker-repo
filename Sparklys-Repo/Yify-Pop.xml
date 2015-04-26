@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Yify-pop</Name>
+<Overview>Yify Pop is a web server to stream torrents from yify, with a nice interface, which is actually responsive design (Mobile/Tablet friendly).
+
+Easy to install on a remote server, Yify Pop has a large set of movies, TV shows and also includes a large set of subtitles in different languages.</Overview>
+<Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
+<Description>Yify Pop is a web server to stream torrents from yify, with a nice interface, which is actually responsive design (Mobile/Tablet friendly).
+
+Easy to install on a remote server, Yify Pop has a large set of movies, TV shows and also includes a large set of subtitles in different languages.</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/yify-pop/</Registry>
+<Repository>sparklyballs/yify-pop</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>4000</HostPort>
+<ContainerPort>4000</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name></Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir></ContainerDir>
+<Mode>rw</Mode>
+</Volume>  
+</Data>
+<WebUI>http://[IP]:[PORT:4000]/</WebUI>
+<Banner>http://i.imgur.com/TeiQNKg.png</Banner>
+<Icon>http://i.imgur.com/Ins48hb.png</Icon>
+</Container>
