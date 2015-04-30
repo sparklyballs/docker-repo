@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>HandBrake</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
+  <Description>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs. Full gui in a RDP container accessible via browser. Use the movies mapping for loading and saving movies and link to a folder on your unraid box, the config mapping is for storing settings for handbrake.</Description>
+  <Overview>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs. Full gui in a RDP container accessible via browser.</Overview>
+  <Registry>https://registry.hub.docker.com/u/sparklyballs/handbrake/</Registry>
+  <Repository>sparklyballs/handbrake</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/Movies</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/nobody/.config/ghb</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:8080]/#/client/c/HandBrake</WebUI>
+  <Banner></Banner>
+  <Icon>http://i.imgur.com/vTZfMnX.png</Icon>
+</Container>
