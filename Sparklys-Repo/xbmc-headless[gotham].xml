@@ -17,7 +17,7 @@ MYSQLpass :- The xmbc password for mysql host[br]
 <Registry>https://registry.hub.docker.com/u/sparklyballs/xbmc-headless/</Registry>
 <Repository>sparklyballs/xbmc-headless</Repository>
 <BindTime>true</BindTime>
-<Privileged>true</Privileged>
+<Privileged>false</Privileged>
 <Networking>
 <Mode>bridge</Mode>
 <Publish>
