@@ -37,6 +37,6 @@
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:8080]/#/client/c/HandBrake</WebUI>
-  <Banner></Banner>
+  <Banner>http://i.imgur.com/ltUYNC2.png</Banner>
   <Icon>http://i.imgur.com/vTZfMnX.png</Icon>
 </Container>
