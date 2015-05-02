@@ -25,6 +25,11 @@
       <ContainerDir>/Movies</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+       <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/Output</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
     <Volume>
       <HostDir></HostDir>
       <ContainerDir>/nobody/.config/ghb</ContainerDir>
