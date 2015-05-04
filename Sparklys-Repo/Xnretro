@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>Xnretro</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
+  <Description>XnRetro allows you to create stunning images with vintage or instant effect on your Desktop.[br][br][b]Full gui in a RDP container accessible via browser. Use the pictures mapping for loading and saving images and link to a folder on your unraid box.[/b]</Description>
+  <Overview>XnRetro allows you to create stunning images with vintage or instant effect on your Desktop.</Overview>
+  <Registry>https://registry.hub.docker.com/u/sparklyballs/xnretro/</Registry>
+  <Repository>sparklyballs/xnretro</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/Pictures</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+       <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/Output</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir></ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:8080]/#/client/c/XnRetro</WebUI>
+  <Banner></Banner>
+  <Icon>http://i.imgur.com/WvYSjXZ.png</Icon>
+</Container>
