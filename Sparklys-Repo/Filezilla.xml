@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>Filezilla</Name>
+  <Description>FileZilla, the free FTP solution.</Description>
+  <Support>http://lime-technology.com/forum/index.php?topic=39689.0</Support>
+  <Overview>FileZilla, the free FTP solution.</Overview>
+  <Registry>https://registry.hub.docker.com/u/sparklyballs/filezilla/</Registry>
+  <Repository>sparklyballs/filezilla</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/Local-Src</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    
+      <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/Fetched-Files</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+        <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/nobody/.config/filezilla</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:8080]/#/client/c/FileZilla</WebUI>
+  <Banner>http://i.imgur.com/VktkrxG.png</Banner>
+  <Icon>http://i.imgur.com/gcW8lbh.png</Icon>
+</Container>
