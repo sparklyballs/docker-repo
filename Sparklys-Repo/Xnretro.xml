@@ -25,17 +25,7 @@
       <ContainerDir>/Pictures</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
-       <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/Output</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir></ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
+   </Data>
   <WebUI>http://[IP]:[PORT:8080]/#/client/c/XnRetro</WebUI>
   <Banner></Banner>
   <Icon>http://i.imgur.com/WvYSjXZ.png</Icon>
