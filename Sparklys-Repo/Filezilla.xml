@@ -17,7 +17,7 @@
 <Name>HEIGHT</Name>
 <Value>720</Value>
 </Variable>
-<Environment/>
+</Environment>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
