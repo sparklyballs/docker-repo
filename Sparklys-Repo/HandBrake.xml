@@ -2,13 +2,22 @@
 <Container>
   <Name>HandBrake</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=39624</Support>
-  <Description>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs. Full gui in a RDP container accessible via browser. Use the movies mapping for loading and saving movies and link to a folder on your unraid box, the config mapping is for storing settings for handbrake.</Description>
+  <Description>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs. Full gui in a RDP container accessible via browser. Use the movies mapping for loading and saving movies and link to a folder on your unraid box, the config mapping is for storing settings for handbrake.[br][br][b]To increase screen resolution[br]Toggle advanced in this template and adjust[br]HEIGHT and WIDTH to suit[/b]</Description>
   <Overview>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs. Full gui in a RDP container accessible via browser.</Overview>
   <Registry>https://registry.hub.docker.com/u/sparklyballs/handbrake/</Registry>
   <Repository>sparklyballs/handbrake</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  <Environment/>
+   <Environment>
+<Variable>
+<Name>WIDTH</Name>
+<Value>1280</Value>
+</Variable>
+<Variable>
+<Name>HEIGHT</Name>
+<Value>720</Value>
+</Variable>
+<Environment/>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
