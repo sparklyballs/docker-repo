@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>Filezilla</Name>
-  <Description>FileZilla, the free FTP solution.</Description>
+  <Description>FileZilla, the free FTP solution.[br][br][b]To increase screen resolution[br]Toggle advanced in this template and adjust[br]HEIGHT and WIDTH to suit[/b]</Description>
   <Support>http://lime-technology.com/forum/index.php?topic=39689.0</Support>
   <Overview>FileZilla, the free FTP solution.</Overview>
   <Registry>https://registry.hub.docker.com/u/sparklyballs/filezilla/</Registry>
   <Repository>sparklyballs/filezilla</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  <Environment/>
+  <Environment>
+<Variable>
+<Name>WIDTH</Name>
+<Value>1280</Value>
+</Variable>
+<Variable>
+<Name>HEIGHT</Name>
+<Value>720</Value>
+</Variable>
+<Environment/>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
