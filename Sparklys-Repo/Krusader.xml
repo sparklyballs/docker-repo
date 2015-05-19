@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>Krusader</Name>
-  <Support>lime-technology.com/forum/index.php?topic=38232</Support>
+  <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
   <Description>Krusader is a fully featured file manager, highly configurable. [br][br][b][span style="color: red"]BE VERY CAREFUL AS YOU CAN DELETE THINGS YOU MAY NOT INTEND TO[br]I AM NOT RESPONSIBLE FOR YOUR BAD DECISIONS.[/span][br]Map /UNRAID to a local folder tree you wish to perform actions on. Add other mappings manually if you wish.
   </Description>
   <Overview>Krusader is a fully featured file manager, highly configurable. Full gui in a RDP container accessible via browser.</Overview>
