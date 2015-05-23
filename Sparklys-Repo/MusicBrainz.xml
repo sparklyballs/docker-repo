@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>MusicBrainz</Name>
+<Support>http://lime-technology.com/forum/index.php?topic=39986</Support>
+<Overview>Locally hosted mirror of musicbrainz for use in conjunction with headphones etc...</Overview>
+<Description>Locally hosted mirror of musicbrainz for use in conjunction with headphones etc...[br][br][b]First time it runs it will download the latest musicbrainz db dump[br] (VERY LARGE DOWNLOAD, > 5GB)[br][br][b][span style="color: red"]YOU WILL NEED A CODE FROM MUSICBRAINZ FOR THIS TO AUTO UPDATE THE DATABASE, REGISTER HERE.[br][url]https://metabrainz.org/supporters/account-type[/url][/span]</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/musicbrainz/</Registry>
+<Repository>sparklyballs/musicbrainz</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>5000</HostPort>
+<ContainerPort>5000</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name>BRAINZCODE</Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/config</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/data</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:5000]/</WebUI>
+<Banner>http://i.imgur.com/5ESfMyL.png</Banner>
+<Icon>http://i.imgur.com/ri9HrqU.png</Icon>
+</Container>
