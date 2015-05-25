@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Serviio</Name>
+<Beta>False</Beta>
+<Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
+<Overview>Serviio is a free media server. It allows you to stream your media files (music, video or images) to renderer devices,(e.g. a TV set, Bluray player, games console or mobile phone) on your connected home network.</Overview>
+<Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
+<Description>Serviio is a free media server. It allows you to stream your media files (music, video or images)[br][/b][br][br][b]Map /config to store config on unraid, Map the /MOVIES and /MUSIC to your media on unraid..[br]You can add
+ additional mappings if needed.[br][br]</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/serviio/</Registry>
+<Repository>sparklyballs/serviio</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>host</Mode>
+<Publish>
+ <Port>
+<HostPort>8780</HostPort>
+<ContainerPort>8780</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+<Port>
+<HostPort>8895</HostPort>
+<ContainerPort>8895</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+<Port>
+<HostPort>1900</HostPort>
+<ContainerPort>1900</ContainerPort>
+<Protocol>udp</Protocol>
+</Port>
+<Port>
+<HostPort>23424</HostPort>
+<ContainerPort>23424</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name></Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/MUSIC</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/MOVIES</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/config</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:8780]/</WebUI>
+<Banner></Banner>
+<Icon>http://i.imgur.com/F5K2QEK.png</Icon>
+</Container>
