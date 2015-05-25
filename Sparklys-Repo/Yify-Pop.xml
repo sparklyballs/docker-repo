@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Yify-pop</Name>
+<Beta>False</Beta>
+<Category>Downloaders: MediaServer:Video</Category>
 <Overview>Yify Pop is a web server to stream torrents from yify, with a nice interface, which is actually responsive design (Mobile/Tablet friendly).
 
 Easy to install on a remote server, Yify Pop has a large set of movies, TV shows and also includes a large set of subtitles in different languages.</Overview>
