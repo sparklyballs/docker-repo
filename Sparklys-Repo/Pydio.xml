@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Pydio</Name>
+<Beta>False</Beta>
+<Category>Cloud:</Category>
 <Support>http://lime-technology.com/forum/index.php?topic=39635</Support>
 <Overview>Pydio (formerly AjaXplorer) is a mature open source software solution for file sharing and synchronization. With intuitive user interfaces (web / mobile / desktop), Pydio provides enterprise-grade features to gain back control and privacy of your data: user directory connectors, legacy filesystems drivers, comprehensive admin interface, and much more.</Overview>
 <Description>Pydio (formerly AjaXplorer) is a mature open source software solution for file sharing and synchronization.[br]With intuitive user interfaces (web / mobile / desktop)[br]Pydio provides enterprise-grade features to gain back control and privacy of your data: user directory connectors, legacy filesystems drivers, comprehensive admin interface, and much more.[br][br][b]On first run of the container an ssmtp.conf file is placed in /config[br]Edit it with your details for email notifications to work (need to restart container to take effect)[/br]If you're not using mysql/mariadb, during setup you should select sqlite for db.[/br]At the end of installation it will give you the contents of an .htaccess file.[br]You must create it in the root of your mapped /var/www/pydio folder and then refresh the page.[/br][/br][b]A self signed SSL Certificate is generated the first time you run this container.[br]If you wish to use your own, place them in the /config/keys folder with same names as existing ones.</Description>
