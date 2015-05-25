@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Piwigo</Name>
+<Beta>False</Beta>
+<Category>MediaServer:Photos</Category>
 <Overview>Piwigo is photo gallery software for the web, built by an active community of users and developers.</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
 <Description>Piwigo is photo gallery software for the web, built by an active community of users and developers.[br]Extensions make Piwigo easily customizable. Icing on the cake, Piwigo is free and opensource.[br][br]
