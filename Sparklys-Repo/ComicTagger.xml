@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>ComicTagger</Name>
+ <Beta>False</Beta>
+ <Date>2015-06-07</Date>
+<Category>MediaApp:Books</Category>
+  <Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+ 
+[center][font size=5]Comictagger Change Log[/font][/center]
+[font size=4]2015.06.07[/font]
+- Initial Release
+- Add Config and Comic Mappings to Template
+- Add Unrar support
+- Add COMICCODE variable for comic vine api
+[font size=4]2015.06.08[/font]
+- Add python-imaging
+[font size=4]2015.06.08[/font]
+- Rebased with x11rdp-1.2 image.
+- Resolved PIL/PILLOW issues.
+</Changes>
+  <Description>ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.[/b][br][br][br]Register at http://www.comicvine.com/ and obtain an api code, paste into the COMICCODE variable field[br]Map /nobody/.ComicTagger to your unraid appdata folder, for settings[br]Map /nobody/Comics to your unraid folder containing Comics[br][b]To increase screen resolution[br]Toggle advanced in this template and adjust[br]HEIGHT and WIDTH to suit[/b]</Description>
+  <Support>http://lime-technology.com/forum/index.php?topic=37209.0</Support>
+  <Overview>ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.</Overview>
+  <Registry>https://registry.hub.docker.com/u/sparklyballs/comictagger/</Registry>
+  <Repository>sparklyballs/comictagger</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Environment>
+<Variable>
+<Name>WIDTH</Name>
+<Value>1420</Value>
+</Variable>
+<Variable>
+<Name>HEIGHT</Name>
+<Value>720</Value>
+</Variable>
+<Variable>
+<Name>COMICCODE</Name>
+<Value></Value>
+</Variable>
+</Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/nobody/Comics</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/nobody/.ComicTagger</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:8080]/#/client/c/ComicTagger</WebUI>
+  <Banner></Banner>
+  <Icon>http://i.imgur.com/Qn1sf8c.png</Icon>
+</Container>
