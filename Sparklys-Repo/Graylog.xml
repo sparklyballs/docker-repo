@@ -3,7 +3,7 @@
 <Name>Graylog</Name>
 <Beta>False</Beta>
 <Category>Tools:</Category>
-<Overview>Graylog log analyzer, template for easier implementation to unraid.</Overview>
+<Overview>Graylog log analyzer,simply a template of the graylog maintained container for easier implementation to unraid.</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
 <Description>Graylog log analyzer</Description>
 <Registry>https://registry.hub.docker.com/u/graylog2/allinone/</Registry>
