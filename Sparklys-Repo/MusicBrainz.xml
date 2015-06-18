@@ -2,6 +2,14 @@
 <Container>
 <Name>MusicBrainz</Name>
 <Beta>False</Beta>
+  <Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+ 
+[center][font size=5]MusicBrainz Change Log[/font][/center]
+[font size=4]2015.06.18[/font]
+- Bump server release to 15-06-15
+</Changes>
+
 <Category>MediaApp:Music</Category>
 <Support>http://lime-technology.com/forum/index.php?topic=39986</Support>
 <Overview>Locally hosted mirror of musicbrainz for use in conjunction with headphones etc...</Overview>
