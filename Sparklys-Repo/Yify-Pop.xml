@@ -7,7 +7,6 @@
  
 [center][font size=5]Yify-pop Change Log[/font][/center]
 [font size=4]2015.06.20[/font]
-- Initial Release
 - Change default net type to host,
 streams not working in bridge.
 </Changes>
