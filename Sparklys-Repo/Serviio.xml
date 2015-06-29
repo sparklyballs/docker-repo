@@ -2,10 +2,17 @@
 <Container>
 <Name>Serviio</Name>
 <Beta>False</Beta>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+ 
+[center][font size=5]Serviio Change Log[/font][/center]
+[font size=4]2015.06.29[/font]
+- Added plugins mapping to template
+</Changes>
 <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
 <Overview>Serviio is a free media server. It allows you to stream your media files (music, video or images) to renderer devices,(e.g. a TV set, Bluray player, games console or mobile phone) on your connected home network.</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
-<Description>Serviio is a free media server. It allows you to stream your media files (music, video or images)[br][/b][br][br][b]Map /config to store config on unraid, Map the /MOVIES and /MUSIC to your media on unraid..[br]You can add
+<Description>Serviio is a free media server. It allows you to stream your media files (music, video or images)[br][/b][br][br][b]Map /config to store config on unraid and the plugins mapping to appdata, Map the /MOVIES and /MUSIC to your media on unraid..[br]You can add
  additional mappings if needed.[br][br]</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/serviio/</Registry>
 <Repository>sparklyballs/serviio</Repository>
