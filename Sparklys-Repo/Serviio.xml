@@ -58,6 +58,11 @@
 <ContainerDir>/config</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/opt/serviio/plugins</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
 </Data>
 <WebUI>http://[IP]:[PORT:8780]/</WebUI>
 <Banner></Banner>
