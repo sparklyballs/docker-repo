@@ -2,6 +2,12 @@
 <Container>
 <Name>Graylog</Name>
 <Beta>False</Beta>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+
+[center][font size=5]Graylog Change Log[/font][/center]
+[font size=4][/font]
+</Changes>
 <Category>Tools:</Category>
 <Overview>Graylog log analyzer,simply a template of the graylog maintained container for easier implementation to unraid.</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>

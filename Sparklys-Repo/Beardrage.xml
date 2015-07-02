@@ -2,6 +2,12 @@
 <Container>
 <Name>BeardRage</Name>
 <Beta>False</Beta>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+
+[center][font size=5]BeardRage Change Log[/font][/center]
+[font size=4][/font]
+</Changes>
 <Category>Downloaders: MediaApp:Video</Category>
 <Overview>Two in One container with both SickBeard and SickRage[br]Note only one can be run at any given time</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
