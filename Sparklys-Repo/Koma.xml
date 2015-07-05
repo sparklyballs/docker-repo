@@ -2,6 +2,12 @@
 <Container>
 <Name>Koma</Name>
 <Beta>False</Beta>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+
+[center][font size=5]Koma Change Log[/font][/center]
+[font size=4][/font]
+</Changes>
 <Category>MediaServer:Video MediaServer:Music</Category>
 <Overview>All in one kodi-headless (helix) and mariadb container, requires minimal setup</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>

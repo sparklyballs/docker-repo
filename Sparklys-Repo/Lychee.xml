@@ -2,6 +2,12 @@
 <Container>
 <Name>Lychee</Name>
 <Beta>False</Beta>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+
+[center][font size=5]Lychee Change Log[/font][/center]
+[font size=4][/font]
+</Changes>
 <Category>MediaServer:Photos</Category>
 <Overview>Lychee is a free photo-management tool, which runs on your server or web-space.</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>

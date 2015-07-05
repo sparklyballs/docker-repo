@@ -2,6 +2,12 @@
 <Container>
   <Name>Libre-Mate</Name>
   <Beta>False</Beta>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+
+[center][font size=5]Libre-Mate Change Log[/font][/center]
+[font size=4][/font]
+</Changes>
 <Category>Productivity:</Category>
   <Overview>Mate desktop in a box with libreoffice (use remote desktop client to connect)</Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>

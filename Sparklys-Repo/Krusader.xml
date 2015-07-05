@@ -2,6 +2,12 @@
 <Container>
   <Name>Krusader</Name>
   <Beta>False</Beta>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+
+[center][font size=5]Krusader Change Log[/font][/center]
+[font size=4][/font]
+</Changes>
 <Category>Tools:</Category>
   <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
   <Description>Krusader is a fully featured file manager, highly configurable. [br][br][b][span style="color: red"]BE VERY CAREFUL AS YOU CAN DELETE THINGS YOU MAY NOT INTEND TO[br]I AM NOT RESPONSIBLE FOR YOUR BAD DECISIONS.[/span][br]Map /UNRAID to a local folder tree you wish to perform actions on. Add other mappings manually if you wish.

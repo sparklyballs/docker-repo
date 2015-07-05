@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<Name>KODI-Headless</Name>
+<Name>XBMC-Headless</Name>
 <Beta>False</Beta>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+
+[center][font size=5]XBMC-Headless Change Log[/font][/center]
+[font size=4][/font]
+</Changes>
 <Category>MediaServer:Video MediaServer:Music</Category>
-<Overview>A Headless installation of KODI (helix version 14.2) to enable SB, CP etc to send updates to.</Overview>
+<Overview>A Headless installation of XBMC (gotham-13.2)to enable SB, CP etc to send updates to</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
-<Description>
-A Headless installation of KODI (helix version 14.2) to enable SB, CP etc updates.[br][br]
-[br]
+<Description>A Headless installation of XBMC (gotham-13.2)to enable SB, CP etc to send updates to[br][br]
 Follow info here for MYSQL setup details:-[br] http://kodi.wiki/view/HOW-TO:Sync_multiple_libraries/Setting_up_MySQL[br]
 [b][span style='color: #E80000;']Directions:[/span][/b][br]
-[b]/root/.kodi[/b] : this path is used to store the config files for KODI-Headless.[br]
+[b]/root/.xbmc[/b] : this path is used to store the config files for XBMC-Headless.[br]
 The following variables need to be set to work with a MYSQL install[br]
 MYSQLip :- IP address of your mysql installation [br][b]YOU MUST USE IP ADDRESS AND NOT HOST NAME[/b][br]
 MYSQLport :- the port number for mysql on your mysql host (usually 3306)[br]
 MYSQLuser :- The xbmc user for mysql host [b]NOT USUALLY ROOT[/b] [br]
 MYSQLpass :- The xmbc password for mysql host[br]
-[b]OTHER KODI INSTALLS ON YOUR LOCAL NETWORK MUST BE HELIX (14)[br] AND HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
+[b]OTHER XBMC INSTALLS ON YOUR LOCAL NETWORK MUST HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
 </Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/headless-kodi-helix/</Registry>
-<Repository>sparklyballs/headless-kodi-helix</Repository>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/xbmc-headless/</Registry>
+<Repository>sparklyballs/xbmc-headless</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
 <Mode>bridge</Mode>
 <Publish>
 <Port>
-<HostPort>8080</HostPort>
-<ContainerPort>8080</ContainerPort>
+<HostPort>8089</HostPort>
+<ContainerPort>8089</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
 </Publish>
@@ -53,11 +57,11 @@ MYSQLpass :- The xmbc password for mysql host[br]
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/opt/kodi-server/share/kodi/portable_data</ContainerDir>
+<ContainerDir>/root/.xbmc</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://[IP]:[PORT:8080]/</WebUI>
-<Banner>http://i.imgur.com/9p9D1vn.png</Banner>
-<Icon>http://i.imgur.com/rqpofWj.png</Icon>
+<WebUI>http://[IP]:[PORT:8089]/</WebUI>
+<Banner>www.abload.de/img/xbmc_luxxro55.png</Banner>
+<Icon>http://www.outsidaz.org/blog/wp-content/uploads/2011/09/xbmc.png</Icon>
 </Container>
