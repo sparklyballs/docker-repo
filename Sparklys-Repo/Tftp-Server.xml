@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>TFTP-Server</Name>
+<Beta>False</Beta>
+<Category>Network:Other Tools:</Category>
+<Date>2015-07-08</Date>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+
+[center][font size=5]TFTP-Server Change Log[/font][/center]
+[font size=4][/font]
+</Changes>
+<Description>TFTP server for pxe boots, map /images to your image folders.</Description>
+<Support>http://lime-technology.com/forum/index.php?topic=37209.0</Support>
+<Overview>TFTP server for pxe boots</Overview>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/tftp-server/</Registry>
+<Repository>sparklyballs/tftp-server</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Environment/>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>69</HostPort>
+<ContainerPort>69</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+<Port>
+<HostPort>69</HostPort>
+<ContainerPort>69</ContainerPort>
+<Protocol>udp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/images</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<Banner></Banner>
+<Icon>http://i.imgur.com/QGj7uIT.png</Icon>
+</Container>
