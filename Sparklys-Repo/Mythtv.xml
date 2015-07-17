@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>MythTv</Name>
+<Beta>False</Beta>
+<Category>MediaApp:Other MediaServer:Video MediaServer:Other</Category>
+<Date>2015-06-10</Date>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+ 
+[center][font size=5]MythTv Change Log[/font][/center]
+[font size=4]2015.07.17[/font]
+- Move to main repo
+[font size=4]2015.06.30[/font]
+- Added kill switch to desktop
+to shut down backend easily.
+- Added backend setup icon to desktop.
+- Cleaned up logging noise.
+[font size=4]2015.06.29[/font]
+- Release to beta
+[font size=4]2015.06.10[/font]
+- Initial Commit to private repo
+- Switch to mariadb for easier start routine
+- Sort minor dependency issues
+- Buckets and buckets of changes, 
+too many to list...
+</Changes>
+<Overview>Myth-Tv, tv software, with mythweb</Overview>
+<Support>http://lime-technology.com/forum/index.php?topic=41110</Support>
+<Description>Myth-Tv installation, SEE SUPPORT THREAD</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/sparkly-mythtv/</Registry>
+<Repository>sparklyballs/sparkly-mythtv</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>host</Mode>
+<Publish>
+  <Port>
+<HostPort>6760</HostPort>
+<ContainerPort>6760</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+  <Port>
+<HostPort>3310</HostPort>
+<ContainerPort>3310</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+ <Port>
+<HostPort>3389</HostPort>
+<ContainerPort>3389</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+<Port>
+<HostPort>5000</HostPort>
+<ContainerPort>5000</ContainerPort>
+<Protocol>udp</Protocol>
+</Port>
+<Port>
+<HostPort>5002</HostPort>
+<ContainerPort>5002</ContainerPort>
+<Protocol>udp</Protocol>
+</Port>
+<Port>
+<HostPort>5004</HostPort>
+<ContainerPort>5004</ContainerPort>
+<Protocol>udp</Protocol>
+</Port>
+ <Port>
+<HostPort>6543</HostPort>
+<ContainerPort>6543</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+ <Port>
+<HostPort>6544</HostPort>
+<ContainerPort>6544</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+ <Port>
+<HostPort>65001</HostPort>
+<ContainerPort>65001</ContainerPort>
+<Protocol>udp</Protocol>
+</Port>
+ <Port>
+<HostPort>65001</HostPort>
+<ContainerPort>65001</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name></Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/home/mythtv</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/db</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/var/lib/mythtv</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:6760]/</WebUI>
+<Banner>http://i.imgur.com/y2R1EO3.png</Banner>
+<Icon>http://i.imgur.com/8co6Sip.png</Icon>
+</Container>
