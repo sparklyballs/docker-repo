@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Photoshow</Name>
+<Beta>False</Beta>
+<Category>MediaApp:Photos MediaServer:Photos</Category>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+ 
+[center][font size=5]Photoshow Change Log[/font][/center]
+[font size=4]2015.06.03[/font]
+- Initial Build
+[font size=4]2015.06.04[/font]
+- Added Imagemagick and php5-imagick
+- Refine start sequence, including setting TZ
+- Remove php5-imagick, unstable with both Imagemagick and it
+- Added FFMPEG for limited video support
+[font size=4]2015.06.07[/font]
+- Removed Imagemagick permanently, crashes with large photo collections.
+</Changes>
+<Description>Photoshow is a web gallery app which can use local files without the need to import them[b][br][br]You must change host port 80 to avoid clash with unraid webui[br][br]Map /Pictures to your unraid photo library and /Thumbs to somewhere on your appdata share</Description>
+<Support>http://lime-technology.com/forum/index.php?topic=37209.0</Support>
+<Overview>Photoshow is a web gallery app which can use local files without the need to import them</Overview>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/photoshow/</Registry>
+<Repository>sparklyballs/photoshow</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Environment/>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>80</HostPort>
+<ContainerPort>80</ContainerPort>
+<Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/Pictures</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
+        <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/Thumbs</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+   </Data>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <Banner></Banner>
+  <Icon>http://i.imgur.com/cTr4hHY.png</Icon>
+</Container>
