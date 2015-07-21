@@ -2,6 +2,7 @@
 <Container>
   <Name>ComicTagger</Name>
  <Beta>False</Beta>
+ <Project>https://github.com/davide-romanini/comictagger</Project>
  <Date>2015-06-07</Date>
 <Category>MediaApp:Books</Category>
   <Changes>
