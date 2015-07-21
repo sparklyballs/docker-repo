@@ -2,6 +2,7 @@
 <Container>
 <Name>Daapd-Server</Name>
 <Beta>False</Beta>
+<Project>https://github.com/ejurgensen/forked-daapd</Project>
 <Category>MediaApp:Music</Category>
 <Date>2015-07-09</Date>
 <Changes>
