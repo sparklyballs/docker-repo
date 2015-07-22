@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<Name>Koma</Name>
+<Name>Koma-Helix</Name>
 <Beta>False</Beta>
 <Changes>
 [center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
 
-[center][font size=5]Koma Change Log[/font][/center]
-[font size=4][/font]
+[center][font size=5]Koma-Helix Change Log[/font][/center]
+[font size=4]2015-7-22[/font]
+- Change name to koma-helix, because of release of isengard.
 </Changes>
 <Category>MediaServer:Video MediaServer:Music</Category>
 <Overview>All in one kodi-headless (helix) and mariadb container, requires minimal setup</Overview>
