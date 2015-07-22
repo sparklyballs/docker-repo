@@ -2,6 +2,7 @@
 <Container>
 <Name>Isengard-KODI-Headless</Name>
 <Beta>False</Beta>
+<Project>http://kodi.tv/</Project>
 <Date>2015-07-22</Date>
 <Category>MediaServer:Video MediaServer:Music</Category>
 <Changes>
