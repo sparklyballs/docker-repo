@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Isengard-KODI-Headless</Name>
+<Beta>False</Beta>
+<Date>2015-07-22</Date>
+<Category>MediaServer:Video MediaServer:Music</Category>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+ 
+[center][font size=5]Headless Isengard Change Log[/font][/center]
+[font size=4]2015.07.22[/font]
+- Release 15.0 final
+[font size=4]2015.07.12[/font]
+- Bump version to rc2
+[font size=4]2015.07.03[/font]
+- Bump version to rc1
+[font size=4]2015.06.14[/font]
+- Bump version to beta2
+</Changes>
+<Overview>A Headless installation of KODI (isengard 15.0) to enable SB, CP etc to send updates to.</Overview>
+<Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
+<Description>
+A Headless installation of KODI (isengard 15.0) to enable SB, CP etc updates.[br][br]
+[br]
+Follow info here for MYSQL setup details:-[br] http://kodi.wiki/view/HOW-TO:Sync_multiple_libraries/Setting_up_MySQL[br]
+[b][span style='color: #E80000;']Directions:[/span][/b][br]
+[b]/root/.kodi[/b] : this path is used to store the config files for KODI-Headless.[br]
+The following variables need to be set to work with a MYSQL install[br]
+MYSQLip :- IP address of your mysql installation [br][b]YOU MUST USE IP ADDRESS AND NOT HOST NAME[/b][br]
+MYSQLport :- the port number for mysql on your mysql host (usually 3306)[br]
+MYSQLuser :- The xbmc user for mysql host [b]NOT ROOT[/b] [br]
+MYSQLpass :- The xmbc password for mysql host[br]
+[b]OTHER KODI INSTALLS ON YOUR LOCAL NETWORK MUST BE ISENGARD(15)beta 2 or later[br] AND HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
+</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/headless-kodi-isengard/</Registry>
+<Repository>sparklyballs/headless-kodi-isengard</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>8080</HostPort>
+<ContainerPort>8080</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name>MYSQLip</Name>
+<Value></Value>
+</Variable>
+<Variable>
+<Name>MYSQLport</Name>
+<Value></Value>
+</Variable>
+<Variable>
+<Name>MYSQLuser</Name>
+<Value></Value>
+</Variable>
+<Variable>
+<Name>MYSQLpass</Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/opt/kodi-server/share/kodi/portable_data</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:8080]/</WebUI>
+<Banner>http://i.imgur.com/9p9D1vn.png</Banner>
+<Icon>http://i.imgur.com/rqpofWj.png</Icon>
+</Container>
