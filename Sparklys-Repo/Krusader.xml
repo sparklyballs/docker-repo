@@ -13,7 +13,7 @@
   <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
   <Description>Krusader is a fully featured file manager, highly configurable. [br][br][b][span style="color: red"]BE VERY CAREFUL AS YOU CAN DELETE THINGS YOU MAY NOT INTEND TO[br]I AM NOT RESPONSIBLE FOR YOUR BAD DECISIONS.[/span][br]Map /UNRAID to a local folder tree you wish to perform actions on. Add other mappings manually if you wish.
   </Description>
-  <Overview>Krusader is a fully featured file manager, highly configurable. Full gui in a RDP container accessible via browser.</Overview>
+  <Overview>Krusader is a highly configurable, fully featured file manager. Full gui in a RDP container accessible via browser.</Overview>
   <Registry>https://registry.hub.docker.com/u/sparklyballs/krusader/</Registry>
   <Repository>sparklyballs/krusader</Repository>
   <BindTime>true</BindTime>
