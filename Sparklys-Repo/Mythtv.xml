@@ -2,6 +2,7 @@
 <Container>
 <Name>MythTv</Name>
 <Beta>False</Beta>
+<Projec>https://www.mythtv.org/</Projec>
 <Category>MediaApp:Other MediaServer:Video MediaServer:Other</Category>
 <Date>2015-06-10</Date>
 <Changes>
