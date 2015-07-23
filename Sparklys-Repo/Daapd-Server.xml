@@ -28,7 +28,7 @@ permissions a pig with this one.
 that thing got big QUICKLY, lol.
 - Changed DBUS extra parameter to read only
 </Changes>
-<Description>DAAP (iTunes), MPD (Music Player Daemon) and RSP (Roku) media server.
+<Description>Itunes (DAAPD), MPD (Music Player Daemon) and RSP (Roku) media server.
 It has support for AirPlay devices/speakers, Apple Remote (and compatibles), MPD clients, internet radio.[br][br][b]Map /music to your library and /config to your appdata share.[/b]</Description>
 <Support>http://lime-technology.com/forum/index.php?topic=41394.0</Support>
 <Overview>DAAP (iTunes), MPD (Music Player Daemon) and RSP (Roku) media server.
