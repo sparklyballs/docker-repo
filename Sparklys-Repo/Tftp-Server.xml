@@ -12,7 +12,7 @@
 </Changes>
 <Description>TFTP server for pxe boots, map /images to your image folders.</Description>
 <Support>http://lime-technology.com/forum/index.php?topic=37209.0</Support>
-<Overview>TFTP server for pxe boots</Overview>
+<Overview>TFTP server for pxe boots,doesn't contain dnsmasq.</Overview>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/tftp-server/</Registry>
 <Repository>sparklyballs/tftp-server</Repository>
 <BindTime>true</BindTime>
