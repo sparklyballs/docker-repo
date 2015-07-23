@@ -2,6 +2,7 @@
 <Container>
 <Name>Photoshow</Name>
 <Beta>False</Beta>
+<Project>http://www.photoshow-gallery.com/</Project>
 <Category>MediaApp:Photos MediaServer:Photos</Category>
 <Changes>
 [center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
