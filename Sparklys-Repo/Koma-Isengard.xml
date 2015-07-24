@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Koma-Isengard</Name>
+<Date>2015-7-23</Date>
+<Beta>False</Beta>
+<Project>http://kodi.tv/</Project>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+
+[center][font size=5]Koma-Isengard Change Log[/font][/center]
+[font size=4]2015-7-23[/font]
+- Initial Relase
+</Changes>
+<Category>MediaServer:Video MediaServer:Music</Category>
+<Overview>All in one kodi-headless (isengard) and mariadb container, requires minimal setup</Overview>
+<Support>http://lime-technology.com/forum/index.php?topic=37763</Support>
+<Description>Integrated kodi-headless and mariadb container[br]
+To use [br]fill in the folder mappings and port settings below [br] 3306 is mariadb port[br]start the container[br] let it run for a couple of minutes[br] 
+and then stop/start it[br] go to unraid terminal and issue this command[br]
+docker exec Koma createuser kodi kodi [br] restart container</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/koma-isengard/</Registry>
+<Repository>sparklyballs/koma-isengard</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>8080</HostPort>
+<ContainerPort>8080</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+<Port>
+<HostPort>3306</HostPort>
+<ContainerPort>3306</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+<Port>
+<HostPort>9777</HostPort>
+<ContainerPort>9777</ContainerPort>
+<Protocol>udp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name></Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/opt/kodi-server/share/kodi/portable_data</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/config</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:8080]/</WebUI>
+<Banner>http://i.imgur.com/MAY6pir.png</Banner>
+<Icon>http://i.imgur.com/rqpofWj.png</Icon>
+</Container>
