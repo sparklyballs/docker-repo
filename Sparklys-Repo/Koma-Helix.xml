@@ -56,5 +56,5 @@ docker exec Koma createuser kodi kodi [br] restart container</Description>
 </Data>
 <WebUI>http://[IP]:[PORT:8080]/</WebUI>
 <Banner>http://i.imgur.com/MAY6pir.png</Banner>
-<Icon>http://i.imgur.com/rqpofWj.png</Icon>
+<Icon>http://i.imgur.com/3tcljFh.png</Icon>
 </Container>
