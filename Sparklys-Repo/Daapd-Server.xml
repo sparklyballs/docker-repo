@@ -31,7 +31,7 @@ that thing got big QUICKLY, lol.
 <Description>Itunes (DAAPD), MPD (Music Player Daemon) and RSP (Roku) media server.
 It has support for AirPlay devices/speakers, Apple Remote (and compatibles), MPD clients, internet radio.[br][br][b]Map /music to your library and /config to your appdata share.[/b]</Description>
 <Support>http://lime-technology.com/forum/index.php?topic=41394.0</Support>
-<Overview>Itunes (DAAPD), MPD (Music Player Daemon) and RSP (Roku) media server.
+<Overview>[b][u][span style=\'color: #E80000;\']DEPRECATED IN FAVOUR OF LSIODEV VERSION[/span][/u][/b][br]Itunes (DAAPD), MPD (Music Player Daemon) and RSP (Roku) media server.
 It has support for AirPlay devices/speakers, Apple Remote (and compatibles), MPD clients, internet radio.</Overview>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/daapd-server/</Registry>
 <Repository>sparklyballs/daapd-server</Repository>
