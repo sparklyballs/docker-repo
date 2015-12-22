@@ -13,7 +13,7 @@
 
 <Category>MediaApp:Music</Category>
 <Support>http://lime-technology.com/forum/index.php?topic=39986</Support>
-<Overview>Locally hosted mirror of musicbrainz for use in conjunction with headphones etc...</Overview>
+<Overview>[b][u][span style=\'color: #E80000;\']DEPRECATED IN FAVOUR OF LSIODEV VERSION[/span][/u][/b]Locally hosted mirror of musicbrainz for use in conjunction with headphones etc...</Overview>
 <Description>Locally hosted mirror of musicbrainz for use in conjunction with headphones etc...[br][br][b]First time it runs it will download the latest musicbrainz db dump[br] (VERY LARGE DOWNLOAD, > 5GB)[br][br][b][span style="color: red"]YOU WILL NEED A CODE FROM MUSICBRAINZ FOR THIS TO AUTO UPDATE THE DATABASE, REGISTER HERE.[br][url]https://metabrainz.org/supporters/account-type[/url][/span]</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/musicbrainz/</Registry>
 <Repository>sparklyballs/musicbrainz</Repository>
